@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <title>Lista de Items</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="colorear()">
+  <div class="conteiner">
+    <header id="main-header" class="p-4 mb-3">
+      <div class="row">
+        <h1 class="col-md-6" id="header-title">Lista de Items</h1>
+        <input id="filtro" type="text" class="form-control col-md-6" placeholder="Buscar item...">
+      </div>
+    </header>
+  </div>
+  <div class="container">
+   <div id="main" class="card card-body section">
+    <h2 class="title">Agregar Items</h2>
+    <form class="form-inline mb-3" id="formAddList">
+      <input id="item" type="text" class="form-control mr-2" required>
+      <input type="submit" class="btn btn-dark" value="Agregar">
+    </form>
+    <h2 class="title">Items</h2>
+    <ul id="items" class="list-group">
+      <li class="list-group-item">Item 1
+        <button class="btn btn-danger btn-sm float-right eliminar">X</button>
+      </li>
+    </ul>
+   </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

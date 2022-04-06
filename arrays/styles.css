@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+body{
+    background-color: #a5e1ad;
+}
+
+.header{
+    background-color: #21094e;
+    height: 300px;
+    color: #a5e1ad;
+    font-family: consolas, "Courier New", monospace;
+    font-size: 20px;
+}
+
+.cajaimg{
+    width: 200px;
+    height: 200px;
+}
+
+img{
+    border-radius: 10px ;
+}
